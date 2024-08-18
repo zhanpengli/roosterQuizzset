@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F848CDC32C71F67F00ECB8DC /* roosterQuizzsetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDC22C71F67F00ECB8DC /* roosterQuizzsetApp.swift */; };
+		F848CDC52C71F67F00ECB8DC /* RoosterHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDC42C71F67F00ECB8DC /* RoosterHomeView.swift */; };
+		F848CDC72C71F68200ECB8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F848CDC62C71F68200ECB8DC /* Assets.xcassets */; };
+		F848CDCA2C71F68200ECB8DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F848CDC92C71F68200ECB8DC /* Preview Assets.xcassets */; };
+		F848CDD12C71F91200ECB8DC /* RoosterStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDD02C71F91200ECB8DC /* RoosterStartView.swift */; };
+		F848CDD32C71F97B00ECB8DC /* RoosterGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDD22C71F97B00ECB8DC /* RoosterGameView.swift */; };
+		F848CDD52C71F9AD00ECB8DC /* RoosterFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDD42C71F9AD00ECB8DC /* RoosterFinalView.swift */; };
+		F848CDD72C71F9D200ECB8DC /* RoosterAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDD62C71F9D200ECB8DC /* RoosterAboutView.swift */; };
+		F848CDD92C71F9F200ECB8DC /* RoosterUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848CDD82C71F9F200ECB8DC /* RoosterUsView.swift */; };
+		F848CE372C71FF6400ECB8DC /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE242C71FF6400ECB8DC /* Poppins-Black.otf */; };
+		F848CE382C71FF6400ECB8DC /* Poppins-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE252C71FF6400ECB8DC /* Poppins-BlackItalic.otf */; };
+		F848CE392C71FF6400ECB8DC /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE262C71FF6400ECB8DC /* Poppins-Bold.otf */; };
+		F848CE3A2C71FF6400ECB8DC /* Poppins-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE272C71FF6400ECB8DC /* Poppins-BoldItalic.otf */; };
+		F848CE3B2C71FF6400ECB8DC /* Poppins-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE282C71FF6400ECB8DC /* Poppins-ExtraBold.otf */; };
+		F848CE3C2C71FF6400ECB8DC /* Poppins-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE292C71FF6400ECB8DC /* Poppins-ExtraBoldItalic.otf */; };
+		F848CE3D2C71FF6400ECB8DC /* Poppins-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2A2C71FF6400ECB8DC /* Poppins-ExtraLight.otf */; };
+		F848CE3E2C71FF6400ECB8DC /* Poppins-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2B2C71FF6400ECB8DC /* Poppins-ExtraLightItalic.otf */; };
+		F848CE3F2C71FF6400ECB8DC /* Poppins-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2C2C71FF6400ECB8DC /* Poppins-Italic.otf */; };
+		F848CE402C71FF6400ECB8DC /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2D2C71FF6400ECB8DC /* Poppins-Light.otf */; };
+		F848CE412C71FF6400ECB8DC /* Poppins-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2E2C71FF6400ECB8DC /* Poppins-LightItalic.otf */; };
+		F848CE422C71FF6400ECB8DC /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE2F2C71FF6400ECB8DC /* Poppins-Medium.otf */; };
+		F848CE432C71FF6400ECB8DC /* Poppins-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE302C71FF6400ECB8DC /* Poppins-MediumItalic.otf */; };
+		F848CE442C71FF6400ECB8DC /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE312C71FF6400ECB8DC /* Poppins-Regular.otf */; };
+		F848CE452C71FF6400ECB8DC /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE322C71FF6400ECB8DC /* Poppins-SemiBold.otf */; };
+		F848CE462C71FF6400ECB8DC /* Poppins-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE332C71FF6400ECB8DC /* Poppins-SemiBoldItalic.otf */; };
+		F848CE472C71FF6400ECB8DC /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE342C71FF6400ECB8DC /* Poppins-Thin.otf */; };
+		F848CE482C71FF6400ECB8DC /* Poppins-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F848CE352C71FF6400ECB8DC /* Poppins-ThinItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F848CDBF2C71F67F00ECB8DC /* roosterQuizzset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = roosterQuizzset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F848CDC22C71F67F00ECB8DC /* roosterQuizzsetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roosterQuizzsetApp.swift; sourceTree = "<group>"; };
+		F848CDC42C71F67F00ECB8DC /* RoosterHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterHomeView.swift; sourceTree = "<group>"; };
+		F848CDC62C71F68200ECB8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F848CDC92C71F68200ECB8DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F848CDD02C71F91200ECB8DC /* RoosterStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterStartView.swift; sourceTree = "<group>"; };
+		F848CDD22C71F97B00ECB8DC /* RoosterGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterGameView.swift; sourceTree = "<group>"; };
+		F848CDD42C71F9AD00ECB8DC /* RoosterFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterFinalView.swift; sourceTree = "<group>"; };
+		F848CDD62C71F9D200ECB8DC /* RoosterAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterAboutView.swift; sourceTree = "<group>"; };
+		F848CDD82C71F9F200ECB8DC /* RoosterUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoosterUsView.swift; sourceTree = "<group>"; };
+		F848CE242C71FF6400ECB8DC /* Poppins-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.otf"; sourceTree = "<group>"; };
+		F848CE252C71FF6400ECB8DC /* Poppins-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.otf"; sourceTree = "<group>"; };
+		F848CE262C71FF6400ECB8DC /* Poppins-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.otf"; sourceTree = "<group>"; };
+		F848CE272C71FF6400ECB8DC /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
+		F848CE282C71FF6400ECB8DC /* Poppins-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.otf"; sourceTree = "<group>"; };
+		F848CE292C71FF6400ECB8DC /* Poppins-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		F848CE2A2C71FF6400ECB8DC /* Poppins-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.otf"; sourceTree = "<group>"; };
+		F848CE2B2C71FF6400ECB8DC /* Poppins-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		F848CE2C2C71FF6400ECB8DC /* Poppins-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.otf"; sourceTree = "<group>"; };
+		F848CE2D2C71FF6400ECB8DC /* Poppins-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.otf"; sourceTree = "<group>"; };
+		F848CE2E2C71FF6400ECB8DC /* Poppins-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.otf"; sourceTree = "<group>"; };
+		F848CE2F2C71FF6400ECB8DC /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
+		F848CE302C71FF6400ECB8DC /* Poppins-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.otf"; sourceTree = "<group>"; };
+		F848CE312C71FF6400ECB8DC /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		F848CE322C71FF6400ECB8DC /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		F848CE332C71FF6400ECB8DC /* Poppins-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		F848CE342C71FF6400ECB8DC /* Poppins-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.otf"; sourceTree = "<group>"; };
+		F848CE352C71FF6400ECB8DC /* Poppins-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F848CDBC2C71F67F00ECB8DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F848CDB62C71F67F00ECB8DC = {
+			isa = PBXGroup;
+			children = (
+				F848CDC12C71F67F00ECB8DC /* roosterQuizzset */,
+				F848CDC02C71F67F00ECB8DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F848CDC02C71F67F00ECB8DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F848CDBF2C71F67F00ECB8DC /* roosterQuizzset.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F848CDC12C71F67F00ECB8DC /* roosterQuizzset */ = {
+			isa = PBXGroup;
+			children = (
+				F848CE362C71FF6400ECB8DC /* Poppins */,
+				F848CDC22C71F67F00ECB8DC /* roosterQuizzsetApp.swift */,
+				F848CDC42C71F67F00ECB8DC /* RoosterHomeView.swift */,
+				F848CDC62C71F68200ECB8DC /* Assets.xcassets */,
+				F848CDC82C71F68200ECB8DC /* Preview Content */,
+				F848CDD02C71F91200ECB8DC /* RoosterStartView.swift */,
+				F848CDD22C71F97B00ECB8DC /* RoosterGameView.swift */,
+				F848CDD42C71F9AD00ECB8DC /* RoosterFinalView.swift */,
+				F848CDD62C71F9D200ECB8DC /* RoosterAboutView.swift */,
+				F848CDD82C71F9F200ECB8DC /* RoosterUsView.swift */,
+			);
+			path = roosterQuizzset;
+			sourceTree = "<group>";
+		};
+		F848CDC82C71F68200ECB8DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F848CDC92C71F68200ECB8DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F848CE362C71FF6400ECB8DC /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				F848CE242C71FF6400ECB8DC /* Poppins-Black.otf */,
+				F848CE252C71FF6400ECB8DC /* Poppins-BlackItalic.otf */,
+				F848CE262C71FF6400ECB8DC /* Poppins-Bold.otf */,
+				F848CE272C71FF6400ECB8DC /* Poppins-BoldItalic.otf */,
+				F848CE282C71FF6400ECB8DC /* Poppins-ExtraBold.otf */,
+				F848CE292C71FF6400ECB8DC /* Poppins-ExtraBoldItalic.otf */,
+				F848CE2A2C71FF6400ECB8DC /* Poppins-ExtraLight.otf */,
+				F848CE2B2C71FF6400ECB8DC /* Poppins-ExtraLightItalic.otf */,
+				F848CE2C2C71FF6400ECB8DC /* Poppins-Italic.otf */,
+				F848CE2D2C71FF6400ECB8DC /* Poppins-Light.otf */,
+				F848CE2E2C71FF6400ECB8DC /* Poppins-LightItalic.otf */,
+				F848CE2F2C71FF6400ECB8DC /* Poppins-Medium.otf */,
+				F848CE302C71FF6400ECB8DC /* Poppins-MediumItalic.otf */,
+				F848CE312C71FF6400ECB8DC /* Poppins-Regular.otf */,
+				F848CE322C71FF6400ECB8DC /* Poppins-SemiBold.otf */,
+				F848CE332C71FF6400ECB8DC /* Poppins-SemiBoldItalic.otf */,
+				F848CE342C71FF6400ECB8DC /* Poppins-Thin.otf */,
+				F848CE352C71FF6400ECB8DC /* Poppins-ThinItalic.otf */,
+			);
+			name = Poppins;
+			path = ../../../iosData/Poppins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F848CDBE2C71F67F00ECB8DC /* roosterQuizzset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F848CDCD2C71F68200ECB8DC /* Build configuration list for PBXNativeTarget "roosterQuizzset" */;
+			buildPhases = (
+				F848CDBB2C71F67F00ECB8DC /* Sources */,
+				F848CDBC2C71F67F00ECB8DC /* Frameworks */,
+				F848CDBD2C71F67F00ECB8DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = roosterQuizzset;
+			productName = roosterQuizzset;
+			productReference = F848CDBF2C71F67F00ECB8DC /* roosterQuizzset.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F848CDB72C71F67F00ECB8DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F848CDBE2C71F67F00ECB8DC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F848CDBA2C71F67F00ECB8DC /* Build configuration list for PBXProject "roosterQuizzset" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F848CDB62C71F67F00ECB8DC;
+			productRefGroup = F848CDC02C71F67F00ECB8DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F848CDBE2C71F67F00ECB8DC /* roosterQuizzset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F848CDBD2C71F67F00ECB8DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F848CE372C71FF6400ECB8DC /* Poppins-Black.otf in Resources */,
+				F848CDCA2C71F68200ECB8DC /* Preview Assets.xcassets in Resources */,
+				F848CE472C71FF6400ECB8DC /* Poppins-Thin.otf in Resources */,
+				F848CE442C71FF6400ECB8DC /* Poppins-Regular.otf in Resources */,
+				F848CE3D2C71FF6400ECB8DC /* Poppins-ExtraLight.otf in Resources */,
+				F848CE3A2C71FF6400ECB8DC /* Poppins-BoldItalic.otf in Resources */,
+				F848CE3C2C71FF6400ECB8DC /* Poppins-ExtraBoldItalic.otf in Resources */,
+				F848CE412C71FF6400ECB8DC /* Poppins-LightItalic.otf in Resources */,
+				F848CE392C71FF6400ECB8DC /* Poppins-Bold.otf in Resources */,
+				F848CE3F2C71FF6400ECB8DC /* Poppins-Italic.otf in Resources */,
+				F848CDC72C71F68200ECB8DC /* Assets.xcassets in Resources */,
+				F848CE462C71FF6400ECB8DC /* Poppins-SemiBoldItalic.otf in Resources */,
+				F848CE482C71FF6400ECB8DC /* Poppins-ThinItalic.otf in Resources */,
+				F848CE432C71FF6400ECB8DC /* Poppins-MediumItalic.otf in Resources */,
+				F848CE3E2C71FF6400ECB8DC /* Poppins-ExtraLightItalic.otf in Resources */,
+				F848CE422C71FF6400ECB8DC /* Poppins-Medium.otf in Resources */,
+				F848CE3B2C71FF6400ECB8DC /* Poppins-ExtraBold.otf in Resources */,
+				F848CE402C71FF6400ECB8DC /* Poppins-Light.otf in Resources */,
+				F848CE382C71FF6400ECB8DC /* Poppins-BlackItalic.otf in Resources */,
+				F848CE452C71FF6400ECB8DC /* Poppins-SemiBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F848CDBB2C71F67F00ECB8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F848CDD52C71F9AD00ECB8DC /* RoosterFinalView.swift in Sources */,
+				F848CDC52C71F67F00ECB8DC /* RoosterHomeView.swift in Sources */,
+				F848CDD12C71F91200ECB8DC /* RoosterStartView.swift in Sources */,
+				F848CDD92C71F9F200ECB8DC /* RoosterUsView.swift in Sources */,
+				F848CDC32C71F67F00ECB8DC /* roosterQuizzsetApp.swift in Sources */,
+				F848CDD32C71F97B00ECB8DC /* RoosterGameView.swift in Sources */,
+				F848CDD72C71F9D200ECB8DC /* RoosterAboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F848CDCB2C71F68200ECB8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F848CDCC2C71F68200ECB8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F848CDCE2C71F68200ECB8DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roosterQuizzset/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..roosterQuizzset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F848CDCF2C71F68200ECB8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"roosterQuizzset/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..roosterQuizzset;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F848CDBA2C71F67F00ECB8DC /* Build configuration list for PBXProject "roosterQuizzset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F848CDCB2C71F68200ECB8DC /* Debug */,
+				F848CDCC2C71F68200ECB8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F848CDCD2C71F68200ECB8DC /* Build configuration list for PBXNativeTarget "roosterQuizzset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F848CDCE2C71F68200ECB8DC /* Debug */,
+				F848CDCF2C71F68200ECB8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F848CDB72C71F67F00ECB8DC /* Project object */;
+}
